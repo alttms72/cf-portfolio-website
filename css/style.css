@@ -1,3 +1,10 @@
+/*
+Colors used:
+Primary Color (Blue): #74b1c6;
+Secondary Color (Gold): #dfb762;
+Tertiary Color (Taupe): #a19a8c;
+*/
 body {
-    background-color: lightgrey;
+    background-color: #e3dad3;
+    font-family: 'Poppins', sans-serif;
 }
