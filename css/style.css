@@ -87,3 +87,15 @@ a {
     background-color: #74b1c6;
     color: #ffffff;
   }
+
+  .button.cv {
+    background-color: transparent;
+    color: #74b1c6;
+    text-transform: uppercase;
+    border: 2px solid #74b1c6;
+  }
+
+  .button.cv:hover {
+    background-color: #74b1c6;
+    color: #ffffff;
+  }
