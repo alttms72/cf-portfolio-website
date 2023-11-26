@@ -5,14 +5,17 @@ Secondary Color (Taupe): #a19a8c;
 Tertiary Color (Gold): #dfb762;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #e3dad3;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 300; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #303030;
-    text-align: center;
 }
 
 img {
@@ -36,18 +39,6 @@ h1, h2, h3, h4 {
   h3 {
     font-size: 1.50em;
     font-weight: 400;
-  }
-
-  p {
-    text-align: left;
-  }
-
-  .p.center {
-    text-align: center;
-  }
-
-  .logo {
-    max-width: 200px
   }
 
   h4 {
@@ -81,7 +72,7 @@ a {
     color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-radius: 3px;
     border-bottom: 2px solid #35535d; /* width of the border, type, color */
     transition: 0.2s opacity;
@@ -116,37 +107,149 @@ a {
     color: #ffffff;
   }
 
-  .nav.section {
-    background-color: #e3dad3;
-    padding: 1em;
-  }
+/* Layout styling */
 
-  .hero.section {
-    background-color: #e3dad3;
-    padding: 1em;
-  }
+.container {
+  padding: 0 15px;
+}
 
-  .work.section {
-    background-color: #ffffff;
-    text-align: left;
-    padding: 1em;
-  }
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
 
-  .bullets.left.aligned {
-    text-align: left;
-  }
+#work h2 {
+  text-align: center;
+}
 
-  .contact.section {
-    background-color: #e3dad3;
-    padding: 1em;
-    text-align: center;
-  }
+#work p {
+  text-align: left;
+}
 
-  .about.section {
-    background-color: #ffffff;
-    padding: 1em;
-  }
+#work .row { 
+  padding-bottom: 25px; 
+  border-bottom: 1px solid #4a4a4a; 
+}
 
-  .social.icon {
-    max-width: 40px;
-  }
+header {
+  background-color: #e3dad3;
+  text-align: center;
+  padding: 10px 0;
+  position:fixed;
+  width: 100%;
+  box-shadow
+    width: [object Object]px; 
+    height: [object Object]px; 
+    background: #E3DAD3; 
+    border: solid #E3DAD3 1px; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1)  ; 
+    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1)  ; 
+    -moz-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1)  ; 
+}
+
+#hero {
+  background-color: #e3dad3;
+  padding: 30px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1, p {
+  text-align: center; /* Centers text */
+}
+
+#about {
+  background-color: #ffffff;
+  padding: 30px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#project-intro {
+  background-color: #ffffff;
+  padding: 30px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+#project-intro h1 {
+  text-align: center; /* Centers text */
+}
+
+#project-details {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#project-details p, h3 {
+  text-align: left;
+}
+
+.center {
+  text-align: center; /* Centers text */
+}
+
+.left {
+  text-align: left; /* left aligns text */
+}
+
+.logo {
+  max-width: 200px
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #74b1c6;
+}
+
+nav > ul > li > a:visited {
+  color: #35535d; /* visited link */
+}
+
+nav > ul > li > a:hover, a:focus {
+  color: #000000;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+nav > ul > li > a:active {
+  color: #dfb762; /* selected link */
+}
+
+main {
+  padding-top: 133px;
+}
+
+footer {
+  background-color: #e3dad3;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 50px;
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#contact h2, p {
+  text-align: center; /* Centers text */
+}
