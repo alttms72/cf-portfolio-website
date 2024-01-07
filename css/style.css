@@ -195,6 +195,10 @@ header {
   max-width: 150px
 }
 
+#myNavtoggle {
+  height: auto;
+}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
