@@ -47,12 +47,12 @@ h1, h2, h3, h4 {
   }
 
 a {
-    color: #74b1c6;
+    color: #3d7e95;
     text-decoration: none; /* No underlining */
   }
 
   a:visited { /* visited link */
-    color: #35535d;
+    color: #234855;
     ;
   }
 
@@ -68,46 +68,49 @@ a {
 
   .button {
     display: inline-block; 
-    background-color: #74b1c6;
-    color: #ffffff; 
+    background-color: #FFFFFF;
     font-weight: 400;
+    text-transform: uppercase;
     text-decoration: none;
     padding: 8px;
     margin-bottom: 0px;
     border-radius: 3px;
-    border-bottom: 2px solid #35535d; /* width of the border, type, color */
+    border: 1px solid #dfb762; /* width of the border, type, color */
     transition: 0.2s all ease; 
   }
 
   .button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    background: #dfb762;
     text-decoration: none;
   }
 
   .button.contact {
-    background-color: transparent;
-    color: #74b1c6;
+    background-color: #ffffff;
+    color: #303030;
     text-transform: uppercase;
-    border: 2px solid #74b1c6;
+    border: 1px solid #303030;
+    text-decoration: none;
   }
 
   .button.contact:hover {
-    background-color: #74b1c6;
-    color: #ffffff;
+    background-color: #dfb762;
+    color: #000000;
+    border: 1px solid #dfb762;
   }
 
   .button.cv {
     background-color: transparent;
-    color: #74b1c6;
+    color: #303030;
     text-transform: uppercase;
-    border: 2px solid #74b1c6;
+    border: 1px solid #dfb762; 
     text-align: center;
     margin: 20px auto;
   }
 
   .button.cv:hover {
-    background-color: #74b1c6;
-    color: #ffffff;
+    background-color: #dfb762;
+    color: #000000;
+    border: 1px solid #dfb762;
   }
 
   .button-cv-wrapper {
