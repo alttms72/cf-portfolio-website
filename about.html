@@ -1,127 +1,238 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Amy Senftleben - UX/UI Design Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    >
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300"
+    >
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/9e337e7f46.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/9e337e7f46.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body id="about-page">
+  <body id="about-page">
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <img class="logo" src="img/amy-senftleben-logo.svg" alt="Amy Senftleben Logo">
-                <nav>
-                    <ul class="navigation">
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img
+            class="logo"
+            src="img/amy-senftleben-logo.svg"
+            alt="Amy Senftleben Logo"
+          >
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main>
-        <div id="about"><!-- open section block 1 -->
-            <div class="container"><!-- open container/wrapper 1 -->
-                <h1>About</h1>
-            </div><!-- end container/wrapper 1 -->
-        </div><!-- end Section Block 1 -->
-        <div class="container"><!-- open section Block 2 -->
-            <div><!-- open container/Wrapper 2 -->
-                <picture><!-- profile photo -->
-                    <source srcset="img/amy_senftleben_600px.jpg" media="(max-width:767px)">
-                    <img src="img/amy_senftleben_1200px.jpg" alt="Image of Amy Senftleben">
-                </picture><!-- close profile photo -->
-                <div><!-- open row for columns -->
-                    <div id="my-story-h2" class="col-md-12 col-lg-7"><!-- open column 1 -->
-                        <h2>My Story</h2>
-                        <div id="about-my-story">
-                            <p>I consider myself a multidisciplinary designer. With expertise in branding, retail, editorial, events and promotions, and nonprofit marketing and fundraising, I've spent 20+ years designing for a broad range of clients—from startups to Fortune 500 companies. And since I believe that great design cross-pollinates across disciplines and industries, I recently completed a course in UI Design so that I can help bring a brand’s full creative vision to life.</p>
-                            <p>Growing up near Seattle, I spent most of my childhood drawing and climbing trees, and I was always interested in how things were designed (let’s just say I had very vocal opinions about the locations of the knobs and controls on our car’s dashboard). City life called me to study art direction in advertising at Boston University, and I joined the crew team on a whim. Through those two pursuits, I learned how to work hard and be part of a powerful team.</p>
-                            <p>I competed on the US national rowing team after college before moving to NYC to pursue work in advertising and retail design. There, an opportunity to illustrate the holiday campaign for Barnes and Noble Booksellers inspired me to start my own wholesale stationery and children’s wall art company, and our products were sold in stores across the country. </p>
-                            <p>After my family returned to the Pacific Northwest, I became an integral part of an in-house marketing and communications team at an independent K-12 school, where I managed the organization’s digital and print outreach and retention efforts. </p>
-                            <p>Today, I am looking for a role as a UX/UI Designer where my experience and fluency can help turn great ideas into reality. Above all else, I want to make a positive contribution to my community and my team.</p>
-                            <p>When I’m not designing, you can find me on the lake with my local rowing team, practicing Italian, or planning travel adventures with my family.</p>
-                        </div>
-                        <div class="button-cv-wrapper">
-                        <!-- link to resume --><a class="button cv" href="files/AmySenftlebenCV.pdf" target="_blank">View Resume</a>
-                        </div>
-                    </div><!-- close column 1 -->
-                    <div class="col-md-12 col-lg-5"><!-- open column 2 -->
-                        <h2>Skills and Tools</h2>
-                        <div><!-- open row for columns A and B -->
-                            <div class="col-md-6 col-lg-12"><!-- open column A -->
-                                <h3>Relevant Skills</h3>
-                                <ul><!-- open skills list -->
-                                    <li>UX Research</li>
-                                    <li>UI Design</li>
-                                    <li>HTML, CSS, Java</li>
-                                    <li>Branding</li>
-                                    <li>Project Management</li>
-                                    <li>Copywriting</li>
-                                    <li>Illustration</li>
-                                </ul><!-- close skills list -->
-                            </div><!-- close column A -->
-                            <div class="col-md-6"><!-- open column B -->
-                                <h3>Tools I Use</h3>
-                                <ul><!-- open tools list -->
-                                    <li>Figma</li>
-                                    <li>Adobe XD</li>
-                                    <li>Sketch</li>
-                                    <li>Adobe Illustrator</li>
-                                    <li>Adobe Photoshop</li>
-                                    <li>Adobe InDesign</li>
-                                    <li>Canva Pro</li>
-                                    <li>Google Suite</li>
-                                    <li>Asana</li>
-                                </ul><!-- close open tools list -->
-                            </div><!-- close column B -->
-                        </div><!-- close row for columns A and B -->
-                    </div><!-- close column 2 -->
-                </div><!-- close row for columns -->
-            </div><!-- close container/wrapper 2 -->
-        </div><!-- close section block 2 -->
+      <div id="about">
+        <!-- open section block 1 -->
+        <div class="container">
+          <!-- open container/wrapper 1 -->
+          <h1>About</h1>
+        </div>
+        <!-- end container/wrapper 1 -->
+      </div>
+      <!-- end Section Block 1 -->
+      <div class="container">
+        <!-- open section Block 2 -->
+        <div>
+          <!-- open container/Wrapper 2 -->
+          <picture
+            ><!-- profile photo -->
+            <source
+              srcset="img/amy_senftleben_600px.jpg"
+              media="(max-width:767px)"
+            >
+            <img
+              src="img/amy_senftleben_1200px.jpg"
+              alt="Image of Amy Senftleben"
+            > </picture
+          ><!-- close profile photo -->
+          <div>
+            <!-- open row for columns -->
+            <div id="my-story-h2" class="col-md-12 col-lg-7">
+              <!-- open column 1 -->
+              <h2>My Story</h2>
+              <div id="about-my-story">
+                <p>
+                  I consider myself a multidisciplinary designer. With expertise
+                  in branding, retail, editorial, events and promotions, and
+                  nonprofit marketing and fundraising, I've spent 20+ years
+                  designing for a broad range of clients—from startups to
+                  Fortune 500 companies. And since I believe that great design
+                  cross-pollinates across disciplines and industries, I recently
+                  completed a course in UI Design so that I can help bring a
+                  brand’s full creative vision to life.
+                </p>
+                <p>
+                  Growing up near Seattle, I spent most of my childhood drawing
+                  and climbing trees, and I was always interested in how things
+                  were designed (let’s just say I had very vocal opinions about
+                  the locations of the knobs and controls on our car’s
+                  dashboard). City life called me to study art direction in
+                  advertising at Boston University, and I joined the crew team
+                  on a whim. Through those two pursuits, I learned how to work
+                  hard and be part of a powerful team.
+                </p>
+                <p>
+                  I competed on the US national rowing team after college before
+                  moving to NYC to pursue work in advertising and retail design.
+                  There, an opportunity to illustrate the holiday campaign for
+                  Barnes and Noble Booksellers inspired me to start my own
+                  wholesale stationery and children’s wall art company, and our
+                  products were sold in stores across the country.
+                </p>
+                <p>
+                  After my family returned to the Pacific Northwest, I became an
+                  integral part of an in-house marketing and communications team
+                  at an independent K-12 school, where I managed the
+                  organization’s digital and print outreach and retention
+                  efforts.
+                </p>
+                <p>
+                  Today, I am looking for a role as a UX/UI Designer where my
+                  experience and fluency can help turn great ideas into reality.
+                  Above all else, I want to make a positive contribution to my
+                  community and my team.
+                </p>
+                <p>
+                  When I’m not designing, you can find me on the lake with my
+                  local rowing team, practicing Italian, or planning travel
+                  adventures with my family.
+                </p>
+              </div>
+              <div class="button-cv-wrapper">
+                <!-- link to resume --><a
+                  class="button cv"
+                  href="files/AmySenftlebenCV.pdf"
+                  target="_blank"
+                  >View Resume</a
+                >
+              </div>
+            </div>
+            <!-- close column 1 -->
+            <div class="col-md-12 col-lg-5">
+              <!-- open column 2 -->
+              <h2>Skills and Tools</h2>
+              <div>
+                <!-- open row for columns A and B -->
+                <div class="col-md-6 col-lg-12">
+                  <!-- open column A -->
+                  <h3>Relevant Skills</h3>
+                  <ul>
+                    <!-- open skills list -->
+                    <li>UX Research</li>
+                    <li>UI Design</li>
+                    <li>HTML, CSS, Java</li>
+                    <li>Branding</li>
+                    <li>Project Management</li>
+                    <li>Copywriting</li>
+                    <li>Illustration</li>
+                  </ul>
+                  <!-- close skills list -->
+                </div>
+                <!-- close column A -->
+                <div class="col-md-6">
+                  <!-- open column B -->
+                  <h3>Tools I Use</h3>
+                  <ul>
+                    <!-- open tools list -->
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Sketch</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe InDesign</li>
+                    <li>Canva Pro</li>
+                    <li>Google Suite</li>
+                    <li>Asana</li>
+                  </ul>
+                  <!-- close open tools list -->
+                </div>
+                <!-- close column B -->
+              </div>
+              <!-- close row for columns A and B -->
+            </div>
+            <!-- close column 2 -->
+          </div>
+          <!-- close row for columns -->
+        </div>
+        <!-- close container/wrapper 2 -->
+      </div>
+      <!-- close section block 2 -->
     </main>
     <footer id="contact">
-        <div>
-            <h2>Get in Touch</h2>
-            <p>Interested in collaborating? Please call: <br><a href="tel:2064986733">(206) 498-6733</a>,
-                or</p>
-        </div>
-        <div>
-            <a href="mailto:amy@amysenftleben.com" class="button contact">Email me</a>
-        </div>
-        <div>
-            <!--Social Media Layout and Placeholders-->
-            <a href="https://www.linkedin.com/in/amyturnersenftleben/" target="_blank">
-                <!-- LinkedIn Icon -->
-                <img src="img/1920528_linkedin_logo_network_social_icon.svg" class="footer-icon" alt="LinkedIn">
-            </a>
-            <a href="https://www.behance.net/amysenftleben" target="_blank">
-                <!-- Behance Icon -->
-                <img src="img/5282539_behance_portfolio_social_network_behance_logo_icon.svg" class="footer-icon" alt="Behance">            
-            </a>
-        </div>
-        <div>
-            <p>©2023-2024 Amy Senftleben</p>
-        </div>
+      <div>
+        <h2>Get in Touch</h2>
+        <p>
+          Interested in collaborating? Please call: <br><a
+            href="tel:2064986733"
+            >(206) 498-6733</a
+          >, or
+        </p>
+      </div>
+      <div>
+        <a href="mailto:amy@amysenftleben.com" class="button contact"
+          >Email me</a
+        >
+      </div>
+      <div>
+        <!--Social Media Layout and Placeholders-->
+        <a
+          href="https://www.linkedin.com/in/amyturnersenftleben/"
+          target="_blank"
+        >
+          <!-- LinkedIn Icon -->
+          <img
+            src="img/1920528_linkedin_logo_network_social_icon.svg"
+            class="footer-icon"
+            alt="LinkedIn"
+          >
+        </a>
+        <a href="https://www.behance.net/amysenftleben" target="_blank">
+          <!-- Behance Icon -->
+          <img
+            src="img/5282539_behance_portfolio_social_network_behance_logo_icon.svg"
+            class="footer-icon"
+            alt="Behance"
+          >
+        </a>
+      </div>
+      <div>
+        <p>©2023-2024 Amy Senftleben</p>
+      </div>
     </footer>
     <script
-    src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-    crossorigin="anonymous">
-    </script>
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-    
-</body>
-
+  </body>
 </html>
