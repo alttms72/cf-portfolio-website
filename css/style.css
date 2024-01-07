@@ -201,6 +201,7 @@ header {
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
+  height:auto;
 }
 
 .navtoggle.responsive li  {
